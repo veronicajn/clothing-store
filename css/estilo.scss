@@ -1,0 +1,840 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+
+//logoempresa
+	#logo{
+		width: 100px;
+		height: 100px;
+	}
+	//letras logo
+	#letraslogo{
+		
+		font-family: 'Srisakdi', cursive;
+		font-size: 31px ;
+		color: white;
+		
+	}
+//bloque de header
+header{
+	
+	
+
+	//buscar
+
+	.boton-buscar{
+		width: 37px;
+		height: 36px;
+		margin-left: 100px;
+		border-radius: 5px 5px 5px 5px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+		border: 0px solid #000000;
+	}
+	#bloque-buscar{
+
+          //order: 3;
+          position: absolute;
+          width: 20rem;
+          top: 3rem;
+          right: 2rem;
+          transition: all 0.5s ease;
+
+          .input-buscar{
+          	border-radius: 5px 0px 0px 5px;
+			-moz-border-radius: 5px 0px 0px 5px;
+			-webkit-border-radius: 5px 0px 0px 5px;
+			border: 0px solid #000000;
+			
+		
+          }
+
+          .botonbuscar{
+          	width: 85px;
+			height: 34px;
+			margin-top: 8px;
+			background-color: #EB003B;
+			border-radius: 0px 5px 5px 0px;
+			-moz-border-radius: 0px 5px 5px 0px;
+			-webkit-border-radius: 0px 5px 5px 0px;
+			border: 0px solid #000000;
+          }
+	}
+
+}
+
+//botón login
+#bloque-login{
+		 position: absolute;
+          width: 20rem;
+          top: 3rem;
+		  right: -5rem;
+          transition: all 0.5s ease;
+.botonlogin{
+		width: 208px;
+		height: 36px;
+		margin-left: 0px;
+		border-radius: 5px 5px 5px 5px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+		border: 0px solid #000000;
+		background-color: #EB003B;
+		color: white;
+
+	}
+
+}
+
+	.input-login{
+			border-radius: 5px 5px 5px 5px;
+	   		-moz-border-radius: 5px 5px 5px 5px;
+			-webkit-border-radius: 5px 5px 5px 5px;
+	}
+	.input-login2{
+			border-radius: 5px 5px 5px 5px;
+	   		-moz-border-radius: 5px 5px 5px 5px;
+			-webkit-border-radius: 5px 5px 5px 5px;
+	}
+
+.boton-login{
+		width: 37px;
+		height: 36px;
+		margin-left: 10px;
+		border-radius: 5px 5px 5px 5px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+		border: 0px solid #000000;
+	}
+
+//menu mujer
+#menumujer{
+	.menudropmujer{
+	
+		margin-top: 7px;
+		margin-left: -24px;
+		a{
+			text-decoration: none;
+		}
+	}
+	button{
+		 border: 0.5px solid white;
+		
+		&:hover{
+		
+			background-color:#EB003B !important;
+		
+	}
+	}
+
+}
+//menu hombre
+#menuhombre{
+	.menudrophombre{
+	
+		margin-top: 7px;
+		margin-left: -24px;
+
+		a{
+			text-decoration: none;
+		}
+	}
+	button{
+		 border: 0.5px solid white;
+
+	&:hover{
+		
+			background-color:#EB003B !important;
+		
+	}
+}
+}
+//menu infantil
+#menuinfantil{
+	.menudropinfantil{
+	
+		margin-top: 7px;
+		margin-left: -24px;
+		a{
+			text-decoration: none;
+		}
+	}
+	button{
+		 border: 0.5px solid white;
+
+		 &:hover{
+		
+			background-color:#EB003B !important;
+		
+	}
+	}
+}
+/*-----------------------------------------------------------
+<!----------------------------MAIN---------------------------
+<!-----------------------------------------------------------*/
+
+#demo{
+	//flecha bajar... debajo esta la animación!!!
+	.flecha-bajar{
+		i{
+			 color:#EB003B;
+			 margin-top: 60px;
+
+		}
+			 margin-top: 63px !important ;
+			 margin-bottom: -37px !important;
+        	 font-size: 6rem;
+           	 animation: flecha-animada 2s ease-in-out infinite;
+    		 
+	}
+    
+	
+	.carousel-item{
+		img{
+			width: 100%;
+			height: 50%;
+		}
+	}
+}
+
+//flecha bajar animacion
+
+   
+@keyframes flecha-animada{
+        from{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(6px);
+        }
+        to{
+            transform: translateY(0);
+        }
+  
+	}
+
+
+//MENU PRINCIPAL----------------------
+#menu-principal{
+	h1{
+			font-family: 'Srisakdi', cursive;
+			font-weight: bold;
+	}
+	h5{
+			font-family: 'Srisakdi', cursive;
+			font-weight: bold;
+	}
+}
+
+
+/*-----------------------------------------------------------
+<!----------------------------FOOTER---------------------------
+<!-----------------------------------------------------------*/
+#piedepagina ul li {
+  text-decoration: none;
+  /*Esto quita el subrayado de las letras*/
+  display: inline;
+  list-style: none; 
+
+}
+#piedepagina{ 
+ul{
+  li{
+    a{
+       color: white;
+               
+              &:hover {
+                color: #EB003B;
+                border-bottom: 4px solid;
+                text-decoration: none;
+              }
+    }
+  }
+}
+}
+
+
+
+
+/*-----------------------------------------------------------
+<!-----------------------ABRIGOS---------------------------
+<!-----------------------------------------------------------*/
+#menu-principalcompra{
+	margin-top: 147px;
+}
+
+#letrasmenu-abrigos{
+	.a01{
+	h1{
+			font-family: 'Srisakdi', cursive;
+			font-weight: bold;
+			margin-top: 150px;
+			margin-bottom: 50px;
+	}
+	
+	}
+}
+#menu-principal-abrigos{
+	display: center;
+	button{
+				border:0;
+                border-radius: 5px 5px 5px 5px;
+				-moz-border-radius: 5px 5px 5px 5px;
+				-webkit-border-radius: 5px 5px 5px 5px;
+		
+              &:hover {
+                color: #EB003B;
+              
+              }
+	}
+	img{
+		width: 250px;
+		height: 250px;
+	}
+}
+//donde estamos???
+#dondestamos{
+	h1{
+		margin-top: 200px;
+		font-family: 'Srisakdi', cursive;
+			font-weight: bold;
+	}
+	
+	img{
+		border:0;
+  	    border-radius: 73px 73px 73px 73px;
+		-moz-border-radius: 73px 73px 73px 73px;
+		-webkit-border-radius: 73px 73px 73px 73px;
+		border: 0px solid #000000;
+	}
+
+}
+#imgmadrid{
+		width: 549px;
+		height: 232px;
+		
+	}
+
+
+
+	//responsividad--------------------------
+	@media (max-width:567px){
+
+
+			//boton menu tamaño movil
+			#botonhamburguesa{
+				
+
+			    width: 75px;
+			    height: 43px;
+			    margin-right: -71px;
+			    margin-top: 20px;
+			    margin-left: 91px;
+			    border: 0;
+			    border-radius: 5px 5px 5px 5px;
+			    -moz-border-radius: 5px 5px 5px 5px;
+			    -webkit-border-radius: 5px 5px 5px 5px;
+				
+				}
+#letraslogo{
+		display: none;
+	}
+			#opcionesmenu{
+				width: 100%;
+				top: 90px;
+				left: 0px;
+				background-color: black;
+				position: absolute;
+
+					}
+			#menu-principal{
+				h1{
+					text-align: center;
+				}
+			}
+			#menuhombre .menudrophombre {
+
+			    margin-top: -1px;
+			    margin-left: -24px;
+
+			}
+			#menumujer .menudropmujer{
+				    margin-top: -1px;
+			   		 margin-left: -24px;
+
+			}
+			#menuinfantil .menudropinfantil{
+				   margin-top: -1px;
+			       margin-left: -24px;
+
+			}
+			 #iconobajar{
+				display: none;
+			}
+			.carousel-inner{
+				margin-top: 213px;
+			}
+
+}
+
+@media (min-width: 568px) and (max-width: 700px){
+
+
+
+//boton menu tamaño movil
+#botonhamburguesa{
+	
+
+   width: 43px !important;
+	height: 43px;
+	margin-right: 46px;
+	margin-top: 20px;
+	margin-left: 150px !important;
+	border: 0;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	
+	}
+#letraslogo{
+		display: none;
+	}
+#logo{
+	margin-left: -14px;
+	margin-right: -66px;
+}
+#opcionesmenu{
+	width: 800px;
+	top: 90px;
+	left: 0;
+	background-color: black;
+	position: absolute;
+
+		}
+
+header #bloque-buscar .input-buscar {
+
+    border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    -webkit-border-radius: 5px 0px 0px 5px;
+    border: 0px solid #000000;
+    margin-left:50px;
+
+}
+.contenedor-bloque-login{
+	position: absolute;
+	left: 20px;
+}
+
+
+#menuhombre .menudrophombre {
+
+    margin-top: 8px;
+    margin-left: -24px;
+
+}
+#menumujer .menudropmujer{
+	    margin-top: 8px;
+   		 margin-left: -24px;
+
+}
+#menuinfantil .menudropinfantil{
+	   margin-top: 8px;
+       margin-left: -24px;
+
+}
+ #iconobajar{
+	display: none;
+}
+.carousel-inner{
+	margin-top: 213px;
+}
+
+
+
+#imgsevilla {
+
+    width: 474px;
+    margin-left: 166px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+#piedepagina{
+	p{
+		display: center;
+	}
+}
+
+}
+
+
+
+//tamaño 3----------
+@media (min-width: 576px) and (max-width: 620px){
+
+
+		//boton menu tamaño movil
+		#botonhamburguesa{
+			
+
+		   width: 43px !important;
+			height: 43px;
+			margin-right: 46px;
+			margin-top: 20px;
+			margin-left: 150px !important;
+			border: 0;
+			border-radius: 5px 5px 5px 5px;
+			-moz-border-radius: 5px 5px 5px 5px;
+			-webkit-border-radius: 5px 5px 5px 5px;
+			
+			}
+		#letraslogo{
+				display: none;
+			}
+		#logo{
+			margin-left: -14px;
+			margin-right: -125px;
+		}
+		#opcionesmenu{
+			width: 800px;
+			top: 90px;
+			left: -25px;
+			background-color: black;
+			position: absolute;
+
+				}
+		header{
+			margin-left: -398px;
+		}
+
+		header #bloque-buscar .input-buscar {
+
+		    border-radius: 5px 0px 0px 5px;
+		    -moz-border-radius: 5px 0px 0px 5px;
+		    -webkit-border-radius: 5px 0px 0px 5px;
+		    border: 0px solid #000000;
+		    margin-left:484px;
+
+		}
+
+		#bloque-login {
+
+		    position: absolute;
+		    width: 20rem;
+		    top: 3rem;
+		    right: -30rem;
+		    transition: all 0.5s ease;
+
+		}
+		header .boton-buscar {
+
+		    width: 37px;
+		    height: 36px;
+		    margin-left: 146px;
+		    border-radius: 5px 5px 5px 5px;
+		    -moz-border-radius: 5px 5px 5px 5px;
+		    -webkit-border-radius: 5px 5px 5px 5px;
+		    border: 0px solid #000000;
+
+		}
+		.contenedor-bloque-login{
+			position: absolute;
+			left: 20px;
+		}
+		.boton-buscar {
+
+		    
+		    margin-left: 197px;
+		}
+
+		#menuhombre .menudrophombre {
+
+		    margin-top: -1px;
+		    margin-left: -14px;
+
+		}
+		#menumujer .menudropmujer{
+			    margin-top: -1px;
+		   		 margin-left: -24px;
+
+		}
+		#menuinfantil .menudropinfantil{
+			   margin-top: -1px;
+		       margin-left: -24px;
+
+		}
+		 #iconobajar{
+			display: none;
+		}
+		.carousel-inner{
+			margin-top: 213px;
+		}
+
+
+
+		#imgsevilla {
+
+		    width: 474px;
+		    margin-left: 166px;
+		    margin-bottom: 50px;
+		    margin-top: 50px;
+
+		}
+}
+@media (min-width: 620px) and (max-width: 700px){
+
+
+		//boton menu tamaño movil
+		#botonhamburguesa{
+			
+
+		   width: 43px !important;
+			height: 43px;
+			margin-right: 46px;
+			margin-top: 20px;
+			margin-left: 150px !important;
+			border: 0;
+			border-radius: 5px 5px 5px 5px;
+			-moz-border-radius: 5px 5px 5px 5px;
+			-webkit-border-radius: 5px 5px 5px 5px;
+			
+			}
+		#letraslogo{
+				display: none;
+			}
+		#logo{
+			margin-left: -14px;
+			margin-right: -125px;
+		}
+		#opcionesmenu{
+			width: 900px;
+			padding-left: 100px;
+			top: 90px;
+			left: -90px;
+			background-color: black;
+			position: absolute;
+
+				}
+		header{
+			margin-left: -398px;
+		}
+
+		header #bloque-buscar .input-buscar {
+
+		    border-radius: 5px 0px 0px 5px;
+		    -moz-border-radius: 5px 0px 0px 5px;
+		    -webkit-border-radius: 5px 0px 0px 5px;
+		    border: 0px solid #000000;
+		    margin-left:484px;
+
+		}
+
+		#bloque-login {
+
+		    position: absolute;
+		    width: 20rem;
+		    top: 3rem;
+		    right: -30rem;
+		    transition: all 0.5s ease;
+
+		}
+		header .boton-buscar {
+
+		    width: 37px;
+		    height: 36px;
+		    margin-left: 146px;
+		    border-radius: 5px 5px 5px 5px;
+		    -moz-border-radius: 5px 5px 5px 5px;
+		    -webkit-border-radius: 5px 5px 5px 5px;
+		    border: 0px solid #000000;
+
+		}
+		.contenedor-bloque-login{
+			position: absolute;
+			left: 20px;
+		}
+		.boton-buscar {
+
+		    
+		    margin-left: 197px;
+		}
+
+		#menuhombre .menudrophombre {
+
+		    margin-top: -1px;
+		    margin-left: -14px;
+
+		}
+		#menumujer .menudropmujer{
+			    margin-top: -1px;
+		   		 margin-left: -24px;
+
+		}
+		#menuinfantil .menudropinfantil{
+			   margin-top: -1px;
+		       margin-left: -24px;
+
+		}
+		 #iconobajar{
+			display: none;
+		}
+		.carousel-inner{
+			margin-top: 213px;
+		}
+
+
+
+		#imgsevilla {
+
+		    width: 474px;
+		    margin-left: 166px;
+		    margin-bottom: 50px;
+		    margin-top: 50px;
+
+		}
+}
+@media (min-width: 700px) and (max-width: 767px){
+
+
+		//boton menu tamaño movil
+		#botonhamburguesa{
+			
+
+		   width: 43px !important;
+			height: 43px;
+			margin-right: 46px;
+			margin-top: 20px;
+			margin-left: 150px !important;
+			border: 0;
+			border-radius: 5px 5px 5px 5px;
+			-moz-border-radius: 5px 5px 5px 5px;
+			-webkit-border-radius: 5px 5px 5px 5px;
+			
+			}
+		#letraslogo{
+				display: none;
+			}
+		#logo{
+			margin-left: -14px;
+			margin-right: -125px;
+		}
+		#opcionesmenu{
+			width: 900px;
+			padding-left: 100px;
+			top: 90px;
+			left: -90px;
+			background-color: black;
+			position: absolute;
+
+				}
+		header{
+			margin-left: -398px;
+		}
+
+		header #bloque-buscar .input-buscar {
+
+		    border-radius: 5px 0px 0px 5px;
+		    -moz-border-radius: 5px 0px 0px 5px;
+		    -webkit-border-radius: 5px 0px 0px 5px;
+		    border: 0px solid #000000;
+		    margin-left:484px;
+
+		}
+
+		#bloque-login {
+
+		    position: absolute;
+		    width: 20rem;
+		    top: 3rem;
+		    right: -30rem;
+		    transition: all 0.5s ease;
+
+		}
+		header .boton-buscar {
+
+		    width: 37px;
+		    height: 36px;
+		    margin-left: 146px;
+		    border-radius: 5px 5px 5px 5px;
+		    -moz-border-radius: 5px 5px 5px 5px;
+		    -webkit-border-radius: 5px 5px 5px 5px;
+		    border: 0px solid #000000;
+
+		}
+		.contenedor-bloque-login{
+			position: absolute;
+			left: 20px;
+		}
+		.boton-buscar {
+
+		    
+		    margin-left: 197px;
+		}
+
+		#menuhombre .menudrophombre {
+
+		    margin-top: -1px;
+		    margin-left: -14px;
+
+		}
+		#menumujer .menudropmujer{
+			    margin-top: -1px;
+		   		 margin-left: -24px;
+
+		}
+		#menuinfantil .menudropinfantil{
+			   margin-top: -1px;
+		       margin-left: -24px;
+
+		}
+		 #iconobajar{
+			display: none;
+		}
+		.carousel-inner{
+			margin-top: 213px;
+		}
+
+
+
+		#imgsevilla {
+
+		    width: 474px;
+		    margin-left: 166px;
+		    margin-bottom: 50px;
+		    margin-top: 50px;
+
+		}
+		#imgmadrid {
+
+		    width: 474px;
+		    margin-left: 166px;
+		    margin-bottom: 50px;
+		    margin-top: 50px;
+
+		}
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 800px){
+
+
+	
+		#opcionesmenu{
+			width: 900px;
+			padding-left: 100px;
+			top: 90px;
+			left: -90px;
+			background-color: black;
+			position: absolute;
+			display: none;
+				}
+		
+}
+
+	
+
+
+	
+	
